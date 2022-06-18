@@ -1,0 +1,64 @@
+
+    body{ 
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.izquierda{
+    background: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.derecha{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+
+#mitad{
+    display: flex;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+
+}
+
+p{
+    font-size: 12px;
+}
+
+button{
+    padding: 5px 40px;
+    background-color: rgb(74, 109, 74) ; 
+    border: none;
+   
+    
+    
+}
+
+button:hover{
+    color: white;
+    background-color: brown;
+   
+   
+}
+h2{
+    color: rgb(74, 109, 74)  ;
+}
+
+input{
+    margin-top: 5px;
+    
+}
+
+label{
+ text-transform: uppercase;
+}
+
