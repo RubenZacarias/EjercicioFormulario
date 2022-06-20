@@ -46,6 +46,7 @@ button{
 button:hover{
     color: white;
     background-color: brown;
+     
    
    
 }
@@ -62,3 +63,18 @@ label{
  text-transform: uppercase;
 }
 
+@media(max-width: 450px) {
+    #mitad{
+        display: block;
+    
+         }
+    .izquierda{
+        width: 60vh;
+        height: 30vh ;
+    }   
+    
+    .derecha{
+        justify-content: center;
+    }
+        
+}
